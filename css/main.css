@@ -1,0 +1,277 @@
+/* For index.htlm */
+
+.section {
+  padding-bottom: 94px;
+}
+
+/* Hero */
+.hero {
+  height: 600px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bcg-mini.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: #c4c4c4;
+}
+
+.hero-content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  padding: 10px 32px;
+
+  color: var(--primary-white-color);
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+/* Особенности-features */
+
+.features {
+  padding-top: 94px;
+}
+
+.features-iconbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.features .title {
+  margin: 0 0 10px 0;
+
+  color: var(--primary-black-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features .text {
+  margin: 0;
+
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.features-item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.features-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.features-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+  fill: currentColor;
+}
+
+/* Чем мы занимаемся */
+.what-we-do .title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 0;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.doing-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.doing-item {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.doing-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.doing-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+/* Наша команда */
+.team {
+  padding-top: 94px;
+
+  background-color: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+  background-color: var(--primary-white-color);
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.team-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.team .title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team .biz {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.follow-list {
+  margin-bottom: 30px;
+}
+
+.follow-link.man {
+color: var(--icon-color);
+}
+
+.follow-link.man:hover,
+.follow-link.man:focus {
+  color: var(--primary-white-color);
+  background-color: var(--link-color);
+}
+
+/* Постоянные клиенты */
+.clients {
+  padding-top: 94px;
+}
+
+.clients-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients-item {
+  margin-right: 30px;
+}
+
+.clients-item:last-child {
+  margin-right: 0;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  padding: 0;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: var(--icon-color);
+}
+
+.clients-logo {
+  fill: currentColor;
+}
+
+.clients-link:hover {
+  border: 1px solid var(--link-color);
+}
+.clients-link:hover .clients-logo {
+  color: var(--link-color);
+}
